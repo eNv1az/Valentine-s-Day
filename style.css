@@ -1,3 +1,55 @@
-body {
-        background: radial-gradient(at top left, yellow,green)
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+  body {
+    color: rgb(172, 19, 50);
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(180deg,#d303ef,#ffffff,#ff73d3);
+    background-size: 300% 300%;
+    animation: color 10s ease-in-out infinite;
+
+    H1 {
+        margin-top: 75px;   
+    }
+
+    P1 {
+        color: rgb(72, 22, 119);
+    }
+
+    P{
+        text-align: justify;
+        margin: 25px;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-indent: 50px;
+        color: rgb(101, 36, 79);
+    }
+
+    P2 {
+        text-align: justify;
+        color: rgb(168, 11, 79);
+    }
+
+    hr {
+        background-color:  rgb(168, 11, 79);
+        height: 1px;
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
 }

@@ -8,8 +8,8 @@
     color: rgb(172, 19, 50);
     height: 100vh;
     width: auto;
-    background: linear-gradient(180deg,#d303ef,#ffffff,#ff73d3);
-    background-size: 300% 300%;
+    background: linear-gradient(45deg,#d303ef,#ffffff,#ff73d3);
+    background-size: 200% 200%;
     animation: color 10s ease-in-out infinite;
 
     H1 {
